@@ -4,10 +4,8 @@ const cors = require("cors");
 const path = require("path");
 dotenv.config();
 
-<<<<<<< HEAD
+
 const cloudinary = require("./config/cloudinary");
-=======
->>>>>>> b9929481d6390a51bf2019e34ea260180d9d7878
 const connectDB = require("./config/connectDB");
 const authRoutes = require("./routes/authRoutes");
 const doctorRoutes = require("./routes/doctorRoutes");
@@ -23,17 +21,10 @@ const app = express();
 
 app.use(cors({
  origin: [
-<<<<<<< HEAD
    "https://online-doctors-appointments-frontend.netlify.app",
    "http://localhost:3000"
- ],
- credentials: true
-=======
-    "https://online-doctors-appointment-frontend.netlify.app",
-    "http://localhost:3000"
   ],
   credentials: true
->>>>>>> b9929481d6390a51bf2019e34ea260180d9d7878
 }));
 
 app.use(express.json());
