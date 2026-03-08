@@ -14,11 +14,8 @@ const AvailabilitySlotSchema = new mongoose.Schema({
 const doctorSchema = new mongoose.Schema({
   name: String,
   email: String,
-<<<<<<< HEAD
   phone: String,
-=======
   phone: Number,
->>>>>>> b9929481d6390a51bf2019e34ea260180d9d7878
   specialization: String,
   image: String,
   experience: String,
